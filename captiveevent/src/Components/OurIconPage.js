@@ -129,41 +129,41 @@ const OurIconPage = () => {
             ],
             images: [
                 "../../subservice/digital/architectural-brilliance-2024-03-19-22-33-28-utc.jpg",
-                "../../subservice/digital/mockup.jpg",
-                "../../subservice/digital/Graphic-designer1.jpg",
-                "../../subservice/digital/digitalshowcase.jpg",
+                "../../subservice/digital/architectural-sketch-designer-making-digital-build-2023-11-27-05-24-30-utc (1).jpg",
+                "../../subservice/digital/editor-working-with-computer-at-office-2023-11-27-05-08-00-utc.jpg",
+                "../../subservice/digital/industrial-engineer-woman-working-at-pc-with-two-m-2023-11-27-05-27-24-utc.jpg",
             ],
             videos: [
                
             ]}},
-        {id: 5, title: "Branding and Gift Sourcing", description: "Brief description", imageUrl: "../../serviceImg/Rectangle-31-5.png",  moreDetails: {
-            summary: "General summary for all media.",
-            imageHeading:[
-                "Concept Creation",
-                "Digital Mockup",
-                "Graphic Design",
-                "Digital Showcase"
-            ],
-            imageSummaries: [
-                "we create an event concept and theme cantered around your brand philosophy to ensure maximal engagement and activation.",
-                "Our team puts together a full digital mockup of the event including scaled 3D render, itemized list of material specs and stand features.",
-                "The designers will create customized aesthetic and brand centric designs for the stand, merchandise and prints to boost brand activation.",
-                "We curate a digital showcase designed to highlight your brand philosophy, key milestones and event objectives."
-            ],
-            videoSummaries: [
-                "Summary for video 1",
-                "Summary for video 2"
-            ],
-            images: [
-                "../../subservice/concept.jpg",
-                "../../subservice/mockup.jpg",
-                "../../subservice/Graphic-designer1.jpg",
-                "../../subservice/digitalshowcase.jpg",
-            ],
-            videos: [
+        // {id: 5, title: "Branding and Gift Sourcing", description: "Brief description", imageUrl: "../../serviceImg/Rectangle-31-5.png",  moreDetails: {
+        //     summary: "General summary for all media.",
+        //     imageHeading:[
+        //         "Concept Creation",
+        //         "Digital Mockup",
+        //         "Graphic Design",
+        //         "Digital Showcase"
+        //     ],
+        //     imageSummaries: [
+        //         "we create an event concept and theme cantered around your brand philosophy to ensure maximal engagement and activation.",
+        //         "Our team puts together a full digital mockup of the event including scaled 3D render, itemized list of material specs and stand features.",
+        //         "The designers will create customized aesthetic and brand centric designs for the stand, merchandise and prints to boost brand activation.",
+        //         "We curate a digital showcase designed to highlight your brand philosophy, key milestones and event objectives."
+        //     ],
+        //     videoSummaries: [
+        //         "Summary for video 1",
+        //         "Summary for video 2"
+        //     ],
+        //     images: [
+        //         "../../subservice/concept.jpg",
+        //         "../../subservice/mockup.jpg",
+        //         "../../subservice/Graphic-designer1.jpg",
+        //         "../../subservice/digitalshowcase.jpg",
+        //     ],
+        //     videos: [
                
-            ]}},
-        {id: 6, title: "Event photography, videography and livestreaming", description: "Capture every moment with our expert event photography, videography, and live streaming services. We provide high-quality visuals and real-time coverage to ensure your event is documented and shared seamlessly.", imageUrl: "../../serviceImg/Rectangle-31-6.png",  moreDetails: {
+        //     ]}},
+        {id: 6, title: "Event photography, videography and livestreaming", description: "Capture every moment with our expert event photography, videography, and live streaming services. We provide high-quality visuals and real-time coverage to ensure your event is documented and shared seamlessly.", imageUrl: "../../subservice/shoot/video-camera-lens-2023-11-27-05-31-52-utc.jpg",  moreDetails: {
             summary: "General summary for all media.",
             imageHeading:[
                 "Videography, Photography & Editing",
@@ -180,8 +180,8 @@ const OurIconPage = () => {
                 "Summary for video 2"
             ],
             images: [
-                "../../subservice/concept.jpg",
-                "../../subservice/mockup.jpg",
+                "../../subservice/shoot/professional-photographer-shooting-a-young-woman-2023-11-27-05-04-41-utc.jpg",
+                "../../subservice/shoot/equipment.jpg",
                 
             ],
             videos: [
