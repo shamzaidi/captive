@@ -13,7 +13,9 @@ app.use(bodyParser.json())
 app.use(cors({ origin: true }));
 const {dbConnection} = require('./connection/database')
 dbConnection()
-
+app.get('/',(req,res)=>{
+    return res.send("Hello")
+})
 const routes = require('./route/route')
 app.use('/', routes)
 app.listen(port,()=>{
