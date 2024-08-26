@@ -1,0 +1,68 @@
+.form-container{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 35vw;
+      
+}
+.form-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px); /* Added to ensure the padding fits */
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+   
+    color: #333;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #C42740;
+    outline: none;
+}
+
+
+.form-button {
+    width: 50%;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+    background: #e8831e;
+    border: none;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    cursor: pointer;
+    background: #FFBB0B ;
+    
+}

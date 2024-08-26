@@ -1,0 +1,146 @@
+/* Header.css */
+
+.header {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between; /* Ensure space between brand/logo and nav */
+    z-index: 1000;
+   
+}
+
+.container1 {
+    max-width: 100%;
+    height: 10%;
+    margin-top: 0;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5%;
+    background-color: #414040c7;
+    border-radius: 0;
+}
+
+.button1 {
+    height: 25%;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 1vw 2vw;
+    margin-right: -10px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: #ffffff;
+    font-family: 'Aldrich', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 0.5vh;
+    background-color: #ffffff;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+.logo1{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.social-icons a:nth-child(1) {
+    color: #3b5998; /* Facebook */
+}
+
+.social-icons a:nth-child(2) {
+    color: #1DA1F2; /* Twitter */
+}
+
+.social-icons a:nth-child(3) {
+    color: #E4405F; /* Instagram */
+}
+
+.social-icons a:nth-child(4) {
+    color: #0077b5; /* LinkedIn */
+}
+
+
+.social-icons a:hover {
+    color: #ddd;
+}
+/* Mobile view styles */
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        display: none;
+    }
+
+    .nav ul li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 15px 20px;
+    }
+
+    .nav ul.active {
+        display: block;
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger menu in mobile view */
+    }
+    .button1 {
+        display: none;
+    }
+    .logo1 {
+        margin:0%;
+        margin-left: 5%;
+    }
+}

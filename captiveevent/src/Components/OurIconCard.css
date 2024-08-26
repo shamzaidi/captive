@@ -1,0 +1,102 @@
+.icon-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, max-height 0.4s ease;
+    margin-bottom: 20px ;
+}
+.icon-card.expanded {
+    height: 100vh; /* Height when expanded */
+}
+
+.icon-card.expanded .icon-card-overlay {
+    height: 100%; /* Make sure the overlay covers the expanded card */
+}
+.icon-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-card-image {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-right: 1px solid #ddd;
+    
+}
+
+.icon-card-details {
+    padding: 15px;
+    flex-grow: 1;
+    width: auto;
+    background-color: rgba(21, 16, 16, 0.637);
+}
+
+.icon-card-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: aliceblue;
+    
+}
+
+.icon-card-description {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: aliceblue;
+}
+
+.icon-card-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon-card-button:hover {
+    background-color: #0056b3;
+}
+.icon-card-more-details {
+    margin-top: 50px;
+    text-align: left;
+    color: aliceblue;
+    
+}
+
+.icon-card-media {
+    display: flex;
+    flex-direction: column; /* Ensures images/videos are stacked vertically */
+    gap: 20px; /* Space between each media item */
+    margin-top: 10px;
+    
+}
+
+.icon-card-media-item {
+    display: flex;
+    background-color: rgba(21, 16, 16, 0.637);
+}
+
+.icon-card-extra-image,
+.icon-card-extra-video {
+    width: 10%; /* Adjust the width as needed */
+    height: 150px; /* Or whatever height suits your design */
+    margin-right:10px;
+    
+}
+
+.icon-card-media-brief {
+    margin-top: 5px;
+    color: aliceblue;
+    font-size: 0.9em;
+    
+}

@@ -1,0 +1,109 @@
+.services {
+    padding: 10px 20px;  
+}
+
+.services-title {
+    font-family: "Aldrich", sans-serif;
+    font-size: 4.6vw;
+    font-weight: 600;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #C42740 0%, #FFBB0B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1600px; /* Adjust to ensure 5 boxes can fit */
+    margin: 0 auto; /* Center the container */
+}
+
+.service-box {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(20% - 20px); /* Width to ensure 5 items per row, minus gap */
+    height: 300px; /* Fixed height for each box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: left;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for text visibility */
+    transition: background 0.3s ease;
+    z-index: 2; /* Ensure this content is above the hover content */
+}
+
+.service-box:hover .service-content {
+    background: rgba(0, 0, 0, 0.7); /* Darker overlay on hover */
+}
+
+.service-hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8); /* Dark background for hover content */
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1; /* Below the regular content */
+    padding: 20px;
+}
+
+.service-box:hover .service-hover-content {
+    opacity: 1; /* Show the hover content */
+    z-index: 3; /* Bring it above the normal content */
+}
+
+.service-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+.gradient-text {
+    background: linear-gradient(90deg, #C42740 0%, #FFBB0B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .banner-btn1 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    fill: #000000;
+    color: #000000;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #C42740 0%, #FFBB0B 100%);
+    border-radius: 0px 0px 0px 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    padding: 1%;
+    height: 20%;
+    margin-top: 5%;
+}

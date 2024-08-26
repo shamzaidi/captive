@@ -1,0 +1,69 @@
+/* ServiceIcon.css */
+.services {
+    padding: 60px 0;
+    min-height: 100vh; /* Ensure it takes at least the full height of the screen */
+    background-color: hsl(51, 63%, 59%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%; /* Ensure the container takes full width */
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+    color: rgba(0, 0, 0, 1);
+    font-size: calc(2.5rem + 6*((100vw - 320px) / 672));
+    line-height: 1;
+    letter-spacing: 0.1px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%; /* Make sure the grid takes full width */
+  }
+  
+  .service-card {
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+   
+  }
+  
+  .service-card img {
+    max-width: 100px; /* Adjust size according to your needs */
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #222;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .service-card:hover {
+    cursor: pointer;
+  }
+  
+  .service-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .service-card:hover h3 {
+    color: #e8831e;
+  }
+  

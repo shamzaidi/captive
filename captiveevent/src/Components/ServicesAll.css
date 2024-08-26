@@ -1,0 +1,17 @@
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.serviceheading{
+    color: #CD2036;
+    font-family: "Aldrich", Sans-serif;
+    font-size: 4.6vw;
+    font-weight: 600;
+}
+.serviceHead{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}

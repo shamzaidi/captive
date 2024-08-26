@@ -1,0 +1,134 @@
+.our-icon-page {
+    
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+}
+
+.icon-list {
+    width: 100%;
+    max-width: 1200px;
+    
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.icon-card-overlay {
+
+    display: flex;
+   
+    width: 100%;
+    height: 30vh;
+    transition: height 0.4s ease; /* Smooth transition for height */
+}
+
+.icon-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow-y: scroll;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: rgba(21, 16, 16, 0.637);
+}
+.icon-card::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+}
+
+.icon-card::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1); /* Background of the scrollbar track */
+}
+
+.icon-card::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar handle */
+    border-radius: 10px; /* Round the scrollbar handle */
+    border: 2px solid rgba(255, 255, 255, 0.1); /* Add a border around the handle */
+}
+
+/* Firefox scrollbar customization */
+.icon-card {
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-color: #888 rgba(255, 255, 255, 0.1); /* Color of the scrollbar and track */
+}
+
+.icon-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-card-image {
+    width: 10%;
+
+    height:30vh;
+    
+    object-fit: cover;
+}
+
+.icon-card-details {
+    padding: 15px;
+    
+}
+
+.icon-card-title {
+    margin: 0;
+    font-size: 1.2em;
+    
+    
+}
+
+.icon-card-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon-card-button:hover {
+    background-color: #0056b3;
+}
+
+.icon-card-description {
+    margin-top: 10px;
+    font-size: 0.9em;
+    
+}
+.icon-card-media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 20px; /* Space between each media item */
+    margin-top: 10px;
+    max-height: 400px; /* Set a max height for the grid */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.icon-card-extra-image,
+.icon-card-extra-video {
+    width: 25%; /* Full width of the grid cell */
+    height: 100%; /* Full height of the grid cell */
+   
+   
+}
+
+/* Thin scrollbar styling */
+.icon-card-media::-webkit-scrollbar {
+    width: 6px;
+}
+
+.icon-card-media::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.icon-card-media::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Firefox scrollbar styling */
+.icon-card-media {
+    scrollbar-width: thin;
+    scrollbar-color: #888 rgba(255, 255, 255, 0.1);
+}

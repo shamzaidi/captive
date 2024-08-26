@@ -1,0 +1,109 @@
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 110vh; /* Full screen height */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire carousel area */
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+   
+   
+   
+    color: #fff;
+    padding: 20px;
+     /* Center text inside overlay */
+}
+
+.carousel-title {
+    background: linear-gradient(90deg, #C42740 0%, #FFBB0B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Aldrich", Sans-serif;
+    font-size: 4vw; /* Responsive font size */
+    font-weight: 600;
+    text-shadow: 4px 2px 0px #FFFFFF;
+    margin-bottom: 20px; /* Space below title */
+
+}
+
+.carousel-description {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 20px;
+    text-align: left;
+     /* Decrease margins for better fit */
+    
+    font-size: 1.2vw; /* Responsive font size */
+
+}
+
+.carousel-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #C42740;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Space above the button */
+    width: 40%;
+}
+
+.carousel-link:hover {
+    background-color: #FFBB0B;
+}
+
+.banner-btn2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.5vw; /* Responsive font size */
+    font-weight: 400;
+    color: #000000;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #C42740 0%, #FFBB0B 100%);
+    border-radius: 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px 20px;
+    margin-top: 20px; /* Space above the button */
+}
+
+.banner-btn2:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, #FFBB0B 0%, #C42740 100%);
+}
+.leftSide{
+    text-align: left;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+    .carousel-title {
+        font-size: 6vw; /* Adjust title font size on smaller screens */
+    }
+    
+    .carousel-description {
+        font-size: 2vw; /* Adjust description font size on smaller screens */
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    .banner-btn2 {
+        font-size: 2.5vw; /* Adjust button font size on smaller screens */
+    }
+}
