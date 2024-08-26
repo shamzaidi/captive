@@ -6,7 +6,7 @@ import './Work.css'; // Import your custom CSS
 const Work = () => {
     const workItems = [
         {
-            img: 'https://captiveevents.com/wp-content/uploads/2023/12/nihal-demirci-erenay-jKtQTsK0aFA-unsplash-1.png',
+            img: './images/wallpaperflare.com_wallpaper (16).jpg',
             title: 'Project 1',
             description: 'Step into a world where art, music, and creativity converge to create an immersive experience like no other. Captive Events proudly presents "Harmony in Hues," a spectacular celebration of artistic expression, where every brushstroke tells a story and every note creates a melody of emotions.',
             link: '#'
